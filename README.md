@@ -29,13 +29,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-
+A: recatjs is a js library that helps bulid large scale appications making it easy to store and access rapid changing data storing them on the virtual dom and comparing it to the dom by updating only the piece of data that changed and in this way it doen't allow the browers to reload/update each time something small changed so the browser's memory can stay clean and not overload, making everything run faster and smoother. 
 1. Describe component state.
-
+A: state is a piece so data that changes.
 1. Describe props.
-
+props stands for properties that are being passed down from the parent component to the children. it's an object that holds data. the children have access to any data they might need and it's being initialized when the child component is rendered in the parent component and passed the data that this needs.
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
-
+A: side effects are commands that need to be exectued after the component rendered and they can do that trough a react method called useEffect that needs to be imported as a hook from react library and this one takes to take in 2 parameter a cb function that runs the effect and a dependency array that syncs this side effect to the change in the state or props or any data or no data at all.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
